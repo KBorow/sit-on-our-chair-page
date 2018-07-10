@@ -1,0 +1,75 @@
+.section-4{
+  background-color: white;
+  padding-bottom: 5rem;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1250px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 1rem;
+    .input {
+      margin-top: 2rem;
+      height: 4rem;
+      border: 1px solid lighten($text-color, 30%);
+    }
+    textarea {
+      margin-top: 2rem;
+      resize: none;
+      border: 1px solid lighten($text-color, 30%);
+    }
+  }
+  .chair-checkbox{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 3.5rem;
+    img{
+      margin-right: 2rem;
+      width: 22.4rem;
+      height: 17rem;
+      margin-bottom: 2.4rem;
+    }
+    label{
+      color: lightgray;
+      font-size: 1.4rem;
+      display: flex;
+      flex-direction: row;
+      span{
+        display: flex;
+        justify-items: center;
+        width: 20rem;
+      }
+      input{
+
+      }
+    }
+    button{
+      width: 24rem;
+      height: 4.3rem;
+      border-radius: 0.5rem;
+      background-color: $text-color;
+      font-size: 2rem;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 2.3rem;
+      &:hover{
+        background-color: darken($text-color, 10%);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+::placeholder {
+  color: lightgray;
+  font-size: 2.5rem;
+  font-weight: 300;
+}

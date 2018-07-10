@@ -1,0 +1,27 @@
+{
+  "name": "sit-on-our-chair-page",
+  "version": "1.0.0",
+  "description": "Simple site - HTML, CSS, JS",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBorow/sit-on-our-chair-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KBorow/sit-on-our-chair-page/issues"
+  },
+  "homepage": "https://github.com/KBorow/sit-on-our-chair-page#readme"
+}

@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  width: 80vw;
+  max-width: 105rem;
+}
+
+button:focus {
+  outline: 0;
+}
